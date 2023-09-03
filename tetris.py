@@ -252,11 +252,11 @@ class Tetris(object):
 
             # for training
             if not self.user and limitPiece > 0 and self.gameover:
-                print('\n----------------------------------')
-                print('  sent           :', self.sent)
-                print('  used block     :', self.nbPiece)
-                print('  complete lines :', self.lines)
-                print('----------------------------------')
+                # print('\n----------------------------------')
+                # print('  sent           :', self.sent)
+                # print('  used block     :', self.nbPiece)
+                # print('  complete lines :', self.lines)
+                # print('----------------------------------')
                 return self.sent * 5000 + self.lines*1000 + self.nbPiece
             if not self.user and not self.computed:
                 # print(self.computed)

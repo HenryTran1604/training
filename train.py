@@ -7,8 +7,8 @@ survivors_rate = 0.7 # số lượng sống sót
 bests_rate = 0.1
 mutate_chance = 0.2
 pieceLimit = 1000 # số lượng tetromino chơi tối đa
-number = 100 # số lượng cá thể trong 1 quần thể
-batch = 20 # số lần lặp
+number = 20 # số lượng cá thể trong 1 quần thể
+batch = 2 # số lần lặp
 size = 8 # số lượng thuộc tính trong hàm heuristic
 
 survivors = create_generation(number, size)
